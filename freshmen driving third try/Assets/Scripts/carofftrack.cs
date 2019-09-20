@@ -16,4 +16,8 @@ public class carofftrack : MonoBehaviour
         carZ = car.transform.position.z;
         Debug.Log("x:" + carX + "y:" + carY + "z:" + carZ);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
 }
